@@ -1,0 +1,93 @@
+//*******************colors**************
+
+$orange:                hsl(31, 77%, 52%);
+$cyan:                  hsl(184, 100%, 22%);
+$dark-cyan:             hsl(179, 100%, 13%);
+$Transparent-white:     hsla(0, 0%, 100%, 0.75);
+$light-gray :           hsl(0, 0%, 95%);//(background, headings, buttons)
+
+//*******************fonts**************
+$large                  :'Big Shoulders Display';
+$small                  :'Lexend Deca';
+*,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card-container{
+    margin-top: 5rem;
+    @media (min-width:768px) {
+       display: flex;
+       max-width: 920px;
+       margin: auto;
+       margin-top: 15rem;
+      
+    }
+    article{
+        
+        width: 307px;
+        margin: auto;
+        padding: 2rem;
+        &.card-1{
+            background-color: $orange;
+            border-radius: 5px 5px 0 0;
+            @media (min-width:768px) {
+            border-radius: 5px 0 0 5px;
+                
+            }
+        }
+        &.card-2{
+            background-color: $cyan;   
+            border-radius: 5px;     
+        }
+        &.card-3{
+            background-color: $dark-cyan;
+            border-radius:  0 0 5px 5px;
+            @media (min-width:768px) {
+            border-radius: 0 5px 5px 0;
+                
+            }
+        }
+
+        h1{
+            font-family: $large;
+            color: $light-gray;
+            font-size: 2rem;
+            margin: 2rem 0;
+        }
+        p{
+            font-family: $small;
+            color: $Transparent-white;
+            font-size: .75rem;
+            padding-bottom: 2rem;
+            line-height: 25px;
+        }
+        BUtton{
+            background-color: $light-gray;
+            border: none;
+            padding: .5rem 1rem;
+            border-radius: 20px;
+            &.button-1{
+                color: $orange
+            }
+            &.button-2{
+                color: $cyan
+            }
+            &.button-3{
+                color: $dark-cyan
+            }
+            &:hover{
+                background-color: transparent;
+                border: 2px solid $Transparent-white;
+                color: $Transparent-white;
+            }
+        }
+        
+    }
+}
+.attribution { 
+    margin-top:5rem ;
+    font-size: 11px; 
+    text-align: center; 
+    a { color: hsl(228, 45%, 44%); }
+}

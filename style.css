@@ -1,0 +1,105 @@
+*, html {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.card-container {
+  margin-top: 5rem;
+}
+
+@media (min-width: 768px) {
+  .card-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 920px;
+    margin: auto;
+    margin-top: 15rem;
+  }
+}
+
+.card-container article {
+  width: 307px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.card-container article.card-1 {
+  background-color: #e38826;
+  border-radius: 5px 5px 0 0;
+}
+
+@media (min-width: 768px) {
+  .card-container article.card-1 {
+    border-radius: 5px 0 0 5px;
+  }
+}
+
+.card-container article.card-2 {
+  background-color: #006970;
+  border-radius: 5px;
+}
+
+.card-container article.card-3 {
+  background-color: #004241;
+  border-radius: 0 0 5px 5px;
+}
+
+@media (min-width: 768px) {
+  .card-container article.card-3 {
+    border-radius: 0 5px 5px 0;
+  }
+}
+
+.card-container article h1 {
+  font-family: "Big Shoulders Display";
+  color: #f2f2f2;
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+
+.card-container article p {
+  font-family: "Lexend Deca";
+  color: rgba(255, 255, 255, 0.75);
+  font-size: .75rem;
+  padding-bottom: 2rem;
+  line-height: 25px;
+}
+
+.card-container article BUtton {
+  background-color: #f2f2f2;
+  border: none;
+  padding: .5rem 1rem;
+  border-radius: 20px;
+}
+
+.card-container article BUtton.button-1 {
+  color: #e38826;
+}
+
+.card-container article BUtton.button-2 {
+  color: #006970;
+}
+
+.card-container article BUtton.button-3 {
+  color: #004241;
+}
+
+.card-container article BUtton:hover {
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.attribution {
+  margin-top: 5rem;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=style.css.map */
