@@ -39,7 +39,7 @@
 
 .card-container article.card-2 {
   background-color: #006970;
-  border-radius: 5px;
+  border-radius: 0;
 }
 
 .card-container article.card-3 {
@@ -68,29 +68,31 @@
   line-height: 25px;
 }
 
-.card-container article BUtton {
+.card-container article Button {
   background-color: #f2f2f2;
   border: none;
   padding: .5rem 1rem;
   border-radius: 20px;
 }
 
-.card-container article BUtton.button-1 {
+.card-container article Button.button-1 {
   color: #e38826;
 }
 
-.card-container article BUtton.button-2 {
+.card-container article Button.button-2 {
   color: #006970;
 }
 
-.card-container article BUtton.button-3 {
+.card-container article Button.button-3 {
   color: #004241;
 }
 
-.card-container article BUtton:hover {
+.card-container article Button:hover {
   background-color: transparent;
   border: 2px solid rgba(255, 255, 255, 0.75);
   color: rgba(255, 255, 255, 0.75);
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
 .attribution {

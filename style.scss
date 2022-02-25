@@ -38,7 +38,7 @@ $small                  :'Lexend Deca';
         }
         &.card-2{
             background-color: $cyan;   
-            border-radius: 5px;     
+            border-radius: 0;     
         }
         &.card-3{
             background-color: $dark-cyan;
@@ -62,7 +62,7 @@ $small                  :'Lexend Deca';
             padding-bottom: 2rem;
             line-height: 25px;
         }
-        BUtton{
+        Button{
             background-color: $light-gray;
             border: none;
             padding: .5rem 1rem;
@@ -80,6 +80,7 @@ $small                  :'Lexend Deca';
                 background-color: transparent;
                 border: 2px solid $Transparent-white;
                 color: $Transparent-white;
+                transition: .5s;
             }
         }
         

@@ -2,6 +2,11 @@
 
 ## Welcome! 
 
+### Screenshot
+![](/images/screenshot.jpg)
+
+## Link
+https://na-r-84.github.io/card-component/
 
 ## The challenge
 
